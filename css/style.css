@@ -1,78 +1,138 @@
-/* 
 
-Project Name: Cookie Monster 
-Client: Cookie Monster
-Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
-Developed @ One Month in NYC 
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
 
-*/
+.clear {
+	clear: both;
+}
+
 
 body {
-	background: white;
-	/*background: url('../images/cookie-monster.jpg');*/
-	/* the follow is the code to have the image display as a full page */
-	background-position: center;
-	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 120px;
-	background: #242424;
-	width: 600px;
-	color: white;
-	padding: 30px;
-	border-radius: 15px;
-    box-shadow: 0px 0px 59px -2px #000000;
-}
-
-h1 {
-	font-size: 50px;
-	margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-h2 {
-	background: #a1d8ff;
-	color: black;
-	padding: 10px;
-	border-radius: 5px;
-	border-style: dashed;
-	border-color: #77bced;
-	width: 310px;
+    background-color: grey;
+    margin-top: 50px;
+    font: SF Pro;
 
 }
 
 a {
-	color: black;
-	text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+#container {
+    width: 602px;
+    margin: 0 auto 0 auto;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7d7d7d;
+
+}
+
+#blackborder {
+    margin: 0 auto 0 auto;
+    width: 604px;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+
 }
 
 
-#links {
-    width: auto;
-    font-size: 50px;
-    margin: auto;
-    background: #c9ff5e;
-    color: black;
+#main {
+    background-color: #1E1E1E;
+    color: white;
+    width: 450px;
+    float: right;
+    height: 800px;
     padding-left: 20px;
-    border-radius: 5px;
-	border-style: dashed;
-	border-color: #b7e35f;
+    padding-right: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
-#macos {
-	margin-left: -30px;
-	margin-top: -25px;
+#sidebar {
+	background-color: #5c5c5c;
+  color: white;
+	width: 150px;
+	float: right;
+  height: 800px;
+  padding: 20px;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+
 }
 
-#paragraphs {
-	padding-bottom: 15px;
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
 }
 
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+
+}
+
+#footer {
+  color: white;
+  padding-left: 20px;
+  margin-bottom: 0px;
+
+}
+
+.macos {
+  margin-left: -20px;
+  margin-top: -17px;
+
+}
+
+
+.button {
+  font-size: 13px;
+  font-weight: lighter;
+  margin: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+
+}
+
+.buttontxt {
+  font-size: 13px;
+  margin: 0px;
+
+}
+.buttonon {
+  font-size: 13px;
+  font-weight: lighter;
+  background-color: #707070;
+  margin: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+
+}
+
+.sidebartxt {
+  font-size: 11px;
+  color: grey;
+  margin-bottom: 12px;
+  margin-top: -11px;
+
+}
 
