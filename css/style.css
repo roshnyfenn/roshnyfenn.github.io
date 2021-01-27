@@ -1,22 +1,22 @@
 
 * {
-     -moz-box-sizing: border-box;
-     -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
 }
 
 .clear {
 	clear: both;
 }
 
-
+/* THIS IS THE MAIN SITE DO NOT EDIT CSS YOU DUMB BITCH*/
 body {
-    background: url(../background.png);
-    margin-top: 50px;
-    font: SF Pro;
-    animation-name: zoom;
-    animation-duration: 0.2s;
-    animation-timing-function: linear;
+  background: url(../background.png);
+  margin-top: 50px;
+  font: SF Pro;
+  animation-name: zoom;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
 
 }
 
@@ -25,6 +25,7 @@ body {
   from {opacity: 0;}
   to {transform: scale(1);}
   to {opacity: 1;}
+
 
 
 }
@@ -36,45 +37,43 @@ a {
 }
 
 #container {
-    width: 602px;
-    margin: 0 auto 0 auto;
-    border-radius: 11px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #616161;
-    box-shadow: 0px 20px 39px rgba(0, 0, 0, 0.7);
+  width: 602px;
+  margin: 0 auto 0 auto;
+  border-radius: 11px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #616161;
+  box-shadow: 0px 20px 39px rgba(0, 0, 0, 0.7);
 
 
 }
 
 #blackborder {
-    margin: 0 auto 0 auto;
-    width: 604px;
-    border-radius: 11px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+  margin: 0 auto 0 auto;
+  width: 604px;
+  border-radius: 11px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 
 }
 
 
 #main {
-    background-color: #1E1E1E;
-    color: white;
-    width: 450px;
-    float: right;
-    height: 800px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
+  background-color: #1E1E1E;
+  color: white;
+  width: 450px;
+  float: right;
+  height: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 
 
 }
 
-#top {
-
+#folder1 {
 
 
 }
@@ -89,7 +88,6 @@ a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -webkit-backdrop-filter: blur(40px);
-  -moz-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
   color: white;
 	width: 150px;
