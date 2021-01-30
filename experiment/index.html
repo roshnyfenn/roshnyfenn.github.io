@@ -9,9 +9,9 @@
 		<title>FENNEC WEBSITE BIH</title>
 		
 		<!-- css layouts!! -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/small.css" media="(max-width: 800px)">
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/small.css" media="(max-width: 800px)">
 	</head>
 
 	<body>
@@ -23,35 +23,66 @@
               <!--main starts here-->
               <div id="main">
               <div id="top">
-              <img src="top.png" class="top">
+              <img src="../top.png" class="top">
 
               </div>
+               
+
+              <div class="container">
 
 
-                <h2>Hi.</h2>
-                <p>this is a <a href="SUS/index.html">work</a> in progress</p>
+                  <div class="input">
+                  <input type="text" placeholder="Enter the city, Then click!" class="input_text">
+                  </div>
+                  </div>
+
+                      <div class="container">
+                      <div class="card">
+                      <h2 class="name" id="name"></h1>
+                      <p class="temp"></p>
+                      <p class="clouds"></p>
+                      <p class="desc"></p>
+
+                          <h2 id="fennectemp">Fennec Weather 🌡️</h2>
+
+                          <div id="picture">
+                            
+
+                            
 
 
+                          </div>
 
+                          <div class="clear"></div>
+
+
+                  </div>
+                  <div id="credits">
+                      <p>Made by @roshnyfenn</p>
+                      <p>Weather data from OpenWeather</p>
+
+                  </div>
+
+
+                  </div>
               </div> 
               <!--main content ends here-->
 
               <!--start of sidebar-->
               <div id="sidebarcolor">
               <div id="sidebar">
-
-              <a href="https://www.google.com"><img src="macos.png" class="macos"></a>
+              <img src="../macos.png" class="macos">
 
                   <div class="sidebartxt">
                   <p>Home Page</p>
                   </div>
                       <!--here is where you place links to pages, the current page uses "buttonon" and the rest use "button" keep that in mind!! SCREE-->
-                      <div class="buttonon">
-                       <p class="buttontxt"><a href="index.html">Home Page</a></p>
+                      <div class="button">
+                       <p class="buttontxt"><a href="../index.html">Home Page</a></p>
                       </div>
 
                       <div class="button">
-                       <p class="buttontxt"><a href="others/index.html">Others</a></p>
+                       <p class="buttontxt"><a href="../others/index.html">Others</a></p>
                       </div>
 
                           <div class="separator"> </div>
@@ -62,11 +93,12 @@
                           <p>Experiments</p>
                           </div>
 
-                          <div class="button">
+                          <div class="buttonon">
                           <p class="buttontxt"><a href="experiment/index.html">FennWeather</a></p>
                           </div>
                       <!--I tried my best to keep this a lil organized yet its still bad bare with me pls-->
-                </div>            
+
+                </div> 
                 </div> 
                 <!--end of sidebar-->
 
@@ -79,9 +111,9 @@
 
   <!--start of footer (please don't remove this i put so much effort into this,,, i just ask for some credit if you do use it <3)-->
   <div id="footer">
-  <!--Template by @roshnyfenn-->
   </div> 
   <!--end of footer-->
 
+  <script src="javascript/main.js"></script>
 	</body>
 </html>
