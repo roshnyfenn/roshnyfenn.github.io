@@ -6,7 +6,7 @@
 		var temp = document.querySelector('.temp');
 		var desc = document.querySelector('.desc');
 		var clouds = document.querySelector('.clouds');
-		var button= document.querySelector('.submit');
+		var button= document.querySelector('.buttongo');
 		var elem = document.createElement("img");
 
 
@@ -14,7 +14,7 @@
 
 
 
-input.addEventListener('dblclick', function(name){;
+button.addEventListener('click', function(name){;
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=79cb849872233fb9ee987315631c3760&units=metric')
 .then(response => response.json())
 .then(data => {
@@ -32,6 +32,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=7
 
   		elem.setAttribute("height", "256");
 		elem.setAttribute("width", "256");
+		elem.setAttribute("class", "picture");
 
 
 				console.log(data['main']['temp'])
@@ -39,30 +40,32 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=7
 				if (data['main']['temp'] < 10) {
 					document.getElementById("fennectemp").innerHTML = "<h2>REALLY Cold Fennec!!!</h2>";
 
-					elem.setAttribute("src", "fennecs/fennec" + (random) + ".jpg");
+					elem.setAttribute("src", "coldfennecs/fennec" + (random) + ".jpg");
 
 				} 
 
 				else if (data['main']['temp'] < 20) {
 					document.getElementById("fennectemp").innerHTML = "<h2>Cold Fennec!!!</h2>";
 
-					elem.setAttribute("src", "fennecs/fennec" + (random) + ".jpg");
+					elem.setAttribute("src", "coldfennecs/fennec" + (random) + ".jpg");
 
 				}
 
 				else if (data['main']['temp'] < 27) {
 					document.getElementById("fennectemp").innerHTML = "<h2>Warm Fennec!!!</h2>";
 
-					elem.setAttribute("src", "fennecs/fennec" + (random) + ".jpg");
+					elem.setAttribute("src", "warmfennecs/fennec" + (random) + ".jpg");
 
 				}
 
 				else if (data['main']['temp'] < 40) {
 					document.getElementById("fennectemp").innerHTML = "<h2> REALLY Warm Fennec!!!</h2>";
 
-					elem.setAttribute("src", "fennecs/fennec" + (random) + ".jpg");
+					elem.setAttribute("src", "warmfennecs/fennec" + (random) + ".jpg");
 
 				}
+
+
 
 })
 
@@ -70,7 +73,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=7
 
 
 )
-
 
 
 	 
