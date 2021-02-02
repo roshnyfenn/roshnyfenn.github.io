@@ -9,32 +9,68 @@
 	clear: both;
 }
 
-/* THIS IS THE MAIN SITE DO NOT EDIT CSS YOU DUMB BITCH*/
+
 body {
-  background: url(../background.png);
-  margin-top: 50px;
-  font: SF Pro;
-  animation-name: zoom;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
+  background: url(../tenor.gif);
+  background-size: 256px 256px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+
+
 
 }
 
 @keyframes zoom {
-  from {transform: scale(0.5);}
-  from {opacity: 0;}
-  to {transform: scale(1);}
-  to {opacity: 1;}
+  from {transform: scaleX(1);}
+  to {transform: scaleX(9000);}
+}
 
+@keyframes SUSS {
+  from {transform: scaleX(1);}
+  from {-webkit-filter: invert(100%);}
+  to {transform: scaleX(2);}
+  to {-webkit-filter: invert(0%);}
 
 
 }
 
-
-a {
-  text-decoration: none;
-  color: white;
+.drip {
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: drip;
+  animation-duration: 90000s;
+  animation-timing-function: linear;
+  animation-name: zoom;
+  animation-duration: 90000s;
+  animation-timing-function: linear;
+  backdrop-filter: invert(100%);
+  -webkit-backdrop-filter: invert(100%);
 }
+
+img {
+  margin-right: 50%;
+  margin-left: 43%;
+  animation-name: SUSS;
+  animation-duration: 0.5s;
+  animation-iteration-count: 9000;
+  animation-timing-function: ease-out;
+
+}
+
+audio {
+    margin-right: 50%;
+  margin-left: 50%;
+}
+
+
+h1 {
+    text-shadow: 4px 5px 3px #000000;
+
+
+}
+
 
 #container {
   width: 602px;
